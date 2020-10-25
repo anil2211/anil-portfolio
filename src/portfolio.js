@@ -6,7 +6,7 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Anil Choudhary",
-  title: "Hi, I'm Anil",
+  title: "Hi, I'm Anil" ,
   subTitle: emoji("A passionate Web Developer 🚀 having knowledge of building Web , Mobile applications, Machine Learning Applications with Python and some other libraries and frameworks."),
   resumeLink: "https://drive.google.com/file/d/1dDpAu_8g5X46xoQKCTGNhATpaVfIT6Kx/view?usp=sharing"
 };
@@ -142,7 +142,7 @@ const bigProjects = {
 const achievementSection = {
 
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  subtitle: "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achivementsCards: [
     {
@@ -155,6 +155,7 @@ const achievementSection = {
 //        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
       ]
     },
+    
     {
       title: "Sql for Data Analysis",
       subtitle: "Extracting,transforming,analyzing data from databases.Use SQL to apply complex criteria and transformations to database data.",
@@ -178,6 +179,12 @@ const achievementSection = {
 //        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
 //        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
       ]
+    },
+    {
+      title: "Data Science",
+      subtitle: "Important elements of data science,introduced to the principles, practices, and tools that make data science the powerful medium for critical insight in business and research.",
+      image: require("./assets/images/data science1.jpg"),
+      footerLink: [{ name: "Certification", url: "https://drive.google.com/file/d/1jVXFsYyvBODamo9c3q7IcfDHihVLAq84/view?usp=sharing" }]
     },
     // {
     //   title: "MYSql",
