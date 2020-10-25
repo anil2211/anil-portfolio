@@ -6,9 +6,9 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Anil Choudhary",
-  title: "Hi, I'm Anil Choudhary",
-  subTitle: emoji("A passionate Web Developer 🚀 having an experience of building Web , Mobile applications, Machine Learning Applications with Python and some other libraries and frameworks."),
-  resumeLink: "https://drive.google.com/drive/u/0/my-drive"
+  title: "Hi, I'm Anil",
+  subTitle: emoji("A passionate Web Developer 🚀 having knowledge of building Web , Mobile applications, Machine Learning Applications with Python and some other libraries and frameworks."),
+  resumeLink: "https://drive.google.com/file/d/1dDpAu_8g5X46xoQKCTGNhATpaVfIT6Kx/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -57,14 +57,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
   ]
 };
 
@@ -93,6 +93,7 @@ const techStack = {
     },
   ]
 };
+
 
 
 // Your top 3 work experiences
@@ -130,30 +131,10 @@ const openSource = {
 
 
 // Some Big Projects You have worked with your company
-
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/ai.jpg"),
-      link: "http://saayahealth.com/"
-    },
-    {
-      image: require("./assets/images/ML.png"),
-      link: "http://nextu.se/"
-    },
-        {
-      image: require("./assets/images/django.png"),
-      link: "http://saayahealth.com/"
-    },
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
-    },
-
-
-  ]
+  // title: "Projects",
+  // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  
 };
 
 // Your Achievement Section Include Your Certification Talks and More
@@ -169,51 +150,51 @@ const achievementSection = {
       subtitle: "Supervised and unsupervised learning · Linear and logistic regression · Kernel SVM · KMeans clustering · Naive Bayes · Decision tree",
       image: require("./assets/images/machine learning.png"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
+        { name: "Certification", url: "https://drive.google.com/file/d/1OM6g19uRYZPrMoQlTlqTOon8Ix7AON9g/view?usp=sharing" },
 //        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
 //        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
       ]
     },
     {
-      title: "MYSql",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" }]
+      title: "Sql for Data Analysis",
+      subtitle: "Extracting,transforming,analyzing data from databases.Use SQL to apply complex criteria and transformations to database data.",
+      image: require("./assets/images/sql image.png"),
+      footerLink: [{ name: "Certification", url: "https://drive.google.com/file/d/18BvKdHHwpcvoIF8vbdKDZ_RbaW6H6lhm/view?usp=sharing" }]
     },
 
     {
       title: "Django",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      subtitle: "Completed Certifcation from Bluelime Learning Solutions for Python and Django Full Stack Web Development for Beginners.",
+      image: require("./assets/images/django logo.png"),
       footerLink: [
-        { name: "Certification", url: "" }      ]
+        { name: "Certification", url: "https://drive.google.com/file/d/1rJDYOxyjHpQcfR5Ajkf8xVm4IaDKCnpF/view?usp=sharing" }      ]
     },
         {
-      title: "Machine Learning",
-      subtitle: "Supervised and unsupervised learning · Linear and logistic regression · Kernel SVM · KMeans clustering · Naive Bayes · Decision tree",
-      image: require("./assets/images/machine learning.png"),
+      title: "Mongo DB",
+      subtitle: "Feel flexbile to work with MongoDB, Perform Basic and Advanced queries in MongoDB,Understand how MongoDB stores data",
+      image: require("./assets/images/mongodblogi.png"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
+        { name: "Certification", url: "https://drive.google.com/file/d/1SWZDjk12ZVVR_0sZ32CJyE5AKtnrgQPy/view?usp=sharing" },
 //        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
 //        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
       ]
     },
-    {
-      title: "MYSql",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
+    // {
+    //   title: "MYSql",
+    //   subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+    //   image: require("./assets/images/googleAssistantLogo.webp"),
+    //   footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+    // },
 
-    {
-      title: "Django",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "" },
-        // { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-      ]
-    }
+    // {
+    //   title: "Django",
+    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //   image: require("./assets/images/pwaLogo.webp"),
+    //   footerLink: [
+    //     { name: "Certification", url: "" },
+    //     // { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+    //   ]
+    // }
 
   ]
 };
@@ -234,4 +215,4 @@ const twitterDetails = {
 
 };
 // export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, contactInfo,twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences,bigProjects, openSource, achievementSection, contactInfo,twitterDetails};
