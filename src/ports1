@@ -1,0 +1,241 @@
+import emoji from "react-easy-emoji";
+
+// Splash Screen
+
+const splashScreen = {
+  enabled: true, // set false to disable splash screen
+  animation: null,
+  duration: 2000 // Set animation duration as per your animation
+};
+
+// Summary And Greeting Section
+
+const illustration = {
+  animated: true // Set to false to use static SVG
+};
+
+const greeting = {
+  username: "Anil Choudhary",
+  title: "Hi all, I'm Anil",
+  subTitle: emoji(
+    "A dedicated DevOps and Cloud Engineer ☁️ with hands-on experience in automating infrastructure, managing CI/CD pipelines, and deploying scalable solutions using AWS, Docker, Kubernetes, and Terraform."
+  ),
+  resumeLink: "", // Provide if available
+  displayGreeting: true
+};
+
+
+// Social Media Links
+
+const socialMediaLinks = {
+  github: "https://github.com/anil2211",
+  linkedin: "https://www.linkedin.com/in/anil-choudhary-vcr22/",
+  gmail: "anilc2812@gmail.com",
+  display: true // Set true to display this section, defaults to false
+};
+
+// Skills Section
+
+const skillsSection = {
+  title: "What I do",
+  subTitle: "PASSIONATE DEVOPS ENGINEER WITH EXPERTISE IN CLOUD INFRASTRUCTURE AND AUTOMATION",
+  skills: [
+    emoji("⚡ Building and automating CI/CD pipelines using Jenkins, GitHub Actions."),
+    emoji("⚡ Managing scalable cloud infrastructure on AWS using Terraform and CloudFormation"),
+    emoji("⚡ Container orchestration with Docker and Kubernetes (self-hosted)")
+  ],
+  softwareSkills: [
+    { skillName: "aws", fontAwesomeClassname: "fab fa-aws" },
+    { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
+    { skillName: "kubernetes", fontAwesomeClassname: "fas fa-network-wired" },
+    { skillName: "terraform", fontAwesomeClassname: "fas fa-tools" },
+     { skillName: "Ansible", fontAwesomeClassname: "fas fa-ansible" },
+    { skillName: "jenkins", fontAwesomeClassname: "fab fa-jenkins" },
+    { skillName: "linux", fontAwesomeClassname: "fab fa-linux" },
+    { skillName: "python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "bash", fontAwesomeClassname: "fas fa-terminal" },
+    { skillName: "git", fontAwesomeClassname: "fab fa-git-alt" }
+  ],
+  display: true
+};
+
+
+// Education Section
+
+const educationInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "Lovely Professional University",
+      logo: require("./assets/images/lpu.png"),
+      subHeader: "Master Computer Applications (MCA)",
+      duration: "Aug 2016 - May 2018",
+      desc: "CGPA-8.24/10",
+    },
+    {
+      schoolName: "Devi Ahilya Vishvavidyalaya",
+      logo: require("./assets/images/davv.png"),
+      subHeader: "Bachelor of Science in Computer Science(B.sc(CS))",
+      duration: "Aug 2013 - June 2016",
+      desc: "Percentage-68%",
+    }
+  ]
+};
+
+// Your top 3 proficient stacks/tech experience
+
+const techStack = {
+  viewSkillBars: true,
+  experience: [
+    { Stack: "Cloud Infrastructure (AWS)", progressPercentage: "75%" },
+    { Stack: "CI/CD & Automation", progressPercentage: "80%" },
+    { Stack: "Containers & Orchestration", progressPercentage: "75%" }
+  ],
+  displayCodersrank: false
+};
+
+
+// Work experience section
+
+const workExperiences = {
+  display: true,
+  experience: [
+    {
+      role: "Python Intern",
+      company: "Rellins Technologies",
+      companylogo: require("./assets/images/skill.svg"),
+      date: "Jan 2020 – June 2020",
+      desc: "Worked on designing and maintaining scalable cloud infrastructure, improving CI/CD processes, and enhancing system observability and resilience.",
+      descBullets: [
+        "Built automated infrastructure using Terraform and AWS CDK",
+        "Implemented monitoring using Prometheus and Grafana",
+        "Managed Kubernetes clusters and Dockerized workloads"
+      ]
+    },
+    {
+      role: "Cloud Engineer",
+      company: "Google Cloud",
+      companylogo: require("./assets/images/skill.svg"),
+      date: "Feb 2020 – Feb 2021",
+      desc: "Focused on automating deployments and maintaining secure and efficient cloud operations in GCP environments."
+    }
+  ]
+};
+
+
+/* Your Open Source Section to View Your Github Pinned Projects
+To know how to get github key look at readme.md */
+
+const openSource = {
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
+};
+
+//Section certificates
+
+const achievementSection = {
+  title: emoji("Certifications 🏆"),
+  subtitle: "Certifications in DevOps and Cloud Engineering.",
+  achievementsCards: [
+    {
+      title: "DevOPs and cloud Computing",
+      subtitle: "Credential from Amazon Web Services",
+      image: require("./assets/images/skill.svg"),
+      imageAlt: "Devops Certification",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.credly.com"
+        }
+      ]
+    },
+    
+    {
+      title: "Certified Kubernetes Administrator (CKA)",
+      subtitle: "Credential by CNCF and Linux Foundation",
+      image: require("./assets/images/kubernetes.png"),
+      imageAlt: "CKA Badge",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.cncf.io/certification/cka/"
+        }
+      ]
+    },
+     {
+      title: "DevOPs and cloud Computing",
+      subtitle: "Credential from Amazon Web Services",
+      image: require("./assets/images/skill.svg"),
+      imageAlt: "Devops Certification",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.credly.com"
+        }
+      ]
+    },
+    
+    {
+      title: "Certified Kubernetes Administrator (CKA)",
+      subtitle: "Credential by CNCF and Linux Foundation",
+      image: require("./assets/images/skill.svg"),
+      imageAlt: "CKA Badge",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.cncf.io/certification/cka/"
+        }
+      ]
+    }
+
+  ],
+  display: true
+};
+
+// Resume Section
+const resumeSection = {
+  title: "Resume",
+  subtitle: "Feel free to download my resume",
+
+  // Please Provide with Your Podcast embeded Link
+  display: true // Set false to hide this section, defaults to true
+};
+
+const contactInfo = {
+  title: emoji("Contact Me ☎️"),
+  subtitle:
+    "My Inbox is open for all.",
+  number: "+91-9993371923",
+  email_address: "anilc2812@gmail.com"
+};
+
+
+const blogSection = {
+  display: false // Set false to hide this section, defaults to true
+};
+
+const bigProjects = {
+  display: false // Set false to hide this section, defaults to true
+};
+
+const talkSection = {
+  display: false // Set false to hide this section, defaults to true
+};
+
+// Podcast Section
+
+const podcastSection = {
+  display: false // Set false to hide this section, defaults to true
+};
+
+const twitterDetails = {
+  userName: "twitter", //Replace "twitter" with your twitter username without @
+  display: true // Set true to display this section, defaults to false
+};
+const isHireable = false;
+
+export {
+    achievementSection, bigProjects, blogSection, contactInfo, educationInfo, greeting, illustration, isHireable, openSource, podcastSection, resumeSection, skillsSection, socialMediaLinks,
+    splashScreen, talkSection, techStack, twitterDetails, workExperiences
+};
+

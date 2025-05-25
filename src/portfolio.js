@@ -1,349 +1,287 @@
-// import emoji from "react-easy-emoji";
-
-// function formatExperience(experience) {
-//   return experience.map((exp) => ({
-//     ...exp,
-//     date: exp.date.split(" – ").map((date) => date.trim()),
-//   }));
-// }
-
-// const greeting = {
-//   username: "Anil Choudhary",
-//   title: "Hi, I'm Anil",
-//   subTitle: emoji(
-//     "A passionate DevOps enthusiast 🚀 with a strong interest in cloud technologies, automation, and infrastructure as code. I’ve been working with tools like Ansible, Terraform, Docker, and AWS through personal projects, hands-on practice, and self-learning."
-//   ),
-//   resumeLink:
-//     "https://drive.google.com/file/d/1I4Ao_Mxhd3Rzb6FO2iRtUfmZmtspGx-l/view",
-// };
-
-// const socialMediaLinks = {
-//   github: "https://github.com/anil2211",
-//   linkedin: "https://www.linkedin.com/in/anil-choudhary-vcr22/",
-//   gmail: "anilc2812@gmail.com",
-//   facebook: "",
-// };
-
-// const skillsSection = {
-//   title: "What I Love to Do",
-//   subTitle:
-//     "AUTOMATION-DRIVEN DEVOPS ENGINEER PASSIONATE ABOUT SCALABLE SYSTEMS & MODERN INFRASTRUCTURE",
-//   skills: [
-//     emoji("⚡ Automating infrastructure provisioning, configuration, and deployments using tools like Terraform, Ansible, and GitHub Actions."),
-//     emoji("⚡ Building CI/CD pipelines to streamline application delivery and ensure fast, reliable software releases."),
-//     emoji("⚡ Monitoring, logging, and observability using tools like Prometheus, Grafana, ELK Stack, and Datadog."),
-//     emoji("⚡ Seamlessly integrating third-party APIs and services such as Google Workspace, Twilio, Zapier, and Zoho using Python."),
-//     emoji("⚡ Ensuring system reliability, scalability, and security in cloud environments (AWS, Azure, GCP)."),
-//     emoji("⚡ Collaborating with development teams to improve deployment strategies and operational efficiency."),
-//     emoji("⚡ Integration of third party services such as Google Contact, Google sheet, Zapier, Twilio, Zoho CRM, Zoho Desk by using python."),
-//     emoji("⚡ Develop interactive Front end / User Interfaces for your web applications."),
-//   ],
-//   softwareSkills: [
-//     { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-//     { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-//     { skillName: "Kubernetes", fontAwesomeClassname: "fas fa-network-wired" },
-//     { skillName: "Terraform", fontAwesomeClassname: "fas fa-code-branch" },
-//     { skillName: "Linux", fontAwesomeClassname: "fas fa-terminal" },
-//     { skillName: "CI/CD (GitHub Actions)", fontAwesomeClassname: "fab fa-github" },
-//     { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
-//     { skillName: "SQL & NoSQL", fontAwesomeClassname: "fas fa-database" },
-//     { skillName: "Monitoring (Grafana/Prometheus)", fontAwesomeClassname: "fas fa-chart-line" },
-//     { skillName: "Ansible", fontAwesomeClassname: "fas fa-cogs" },
-//     { skillName: "Machine Learning", fontAwesomeClassname: "fas fa-robot" },
-//     { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
-//     { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
-//   ],
-// };
-
-// const techStack = {
-//   viewSkillBars: true,
-//   experience: [
-//     { Stack: "Python (Automation & Scripting)", progressPercentage: "90%" },
-//     { Stack: "Linux & Shell Scripting", progressPercentage: "85%" },
-//     { Stack: "Docker & Containers", progressPercentage: "80%" },
-//     { Stack: "CI/CD (GitHub Actions, Jenkins)", progressPercentage: "75%" },
-//     { Stack: "Infrastructure as Code (Terraform, Ansible)", progressPercentage: "70%" },
-//     { Stack: "Cloud Platforms (AWS, Azure)", progressPercentage: "70%" },
-//     { Stack: "Monitoring & Logging (Prometheus, Grafana, ELK)", progressPercentage: "65%" },
-//     { Stack: "SQL & NoSQL Databases", progressPercentage: "60%" },
-//     { Stack: "Kubernetes & Orchestration", progressPercentage: "60%" },
-//     { Stack: "MySql", progressPercentage: "75%" },
-//     { Stack: "Backend", progressPercentage: "70%" },
-//     { Stack: "Machine Learning", progressPercentage: "50%" },
-//   ],
-// };
-
-// const workExperiences = {
-//   viewExperiences: true,
-//   experience: formatExperience([
-//     {
-//       role: "Python Developer",
-//       company: "Relinns Technologies",
-//       companylogo: require("./assets/images/rellins.png"),
-//       date: "January 2020 – Present",
-//       desc: "As an Artificial Intelligence intern, build chatbots to communicate and engage with customers on website and other platforms.",
-//       descBullets: [],
-//     },
-//     {
-//       role: "Android Developer",
-//       company: "Sebiz Infotech",
-//       companylogo: require("./assets/images/sebiz.jpg"),
-//       date: "Jan 2018 – June 2018",
-//       desc: "Designing and developing advanced applications for the Android platform. Work on bug fixing and improving application performance.",
-//     },
-//   ]),
-// };
-
-// const openSource = {
-//   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-//   githubUserName: "anil2211",
-//   showGithubProfile: true,
-// };
-
-// const bigProjects = {
-//   // Optional projects can be added
-// };
-
-// const achievementSection = {
-//   title: emoji("Achievements & Certifications 🏆"),
-//   subtitle: "Certifications and Accomplishments in DevOps, Cloud, Programming, and Data Technologies",
-//   achivementsCards: [
-//     {
-//       title: "DevOps Certification",
-//       subtitle: "Hands-on experience with CI/CD pipelines, Docker, Kubernetes, Git, Jenkins, and infrastructure automation tools like Ansible and Terraform.",
-//       image: require("./assets/images/devops.png"),
-//       footerLink: [
-//         {
-//           name: "Certification",
-//           url: "https://drive.google.com/file/d/1KlGcQxT8oPqxgbCTR2_sYD18_pFN9tOU/view",
-//         },
-//       ],
-//     },
-//     // ... You can keep adding more cards as you have
-//   ],
-// };
-
-// const contactInfo = {
-//   title: emoji("Contact Me ☎️"),
-//   subtitle: "My Inbox is open for all.",
-//   number1: "+91-9993371923",
-//   email_address: "anil.vcr22@gmail.com",
-// };
-
-// const twitterDetails = {
-//   userName: "twitter", // Replace with your Twitter username (no @)
-// };
-
-// export {
-//   achievementSection, bigProjects, contactInfo, greeting, openSource, skillsSection, socialMediaLinks, techStack, twitterDetails, workExperiences
-// };
-
-﻿
-// Your Summary And Greeting Section
-
 import emoji from "react-easy-emoji";
 
-const greeting = {
-  /* Your Summary And Greeting Section */
-  username: "Anil Choudhary",
-  title: "Hi, I'm Anil" ,
-  subTitle: emoji("A passionate Web Developer 🚀 having knowledge of building Web , Mobile applications, Machine Learning Applications with Python and some other libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1dDpAu_8g5X46xoQKCTGNhATpaVfIT6Kx/view?usp=sharing"
+// Splash Screen
+
+const splashScreen = {
+  enabled: true, // set false to disable splash screen
+  animation: null,
+  duration: 2000 // Set animation duration as per your animation
 };
 
-// Your Social Media Link
+// Summary And Greeting Section
+
+const illustration = {
+  animated: true // Set to false to use static SVG
+};
+
+const greeting = {
+  username: "Anil Choudhary",
+  title: "Hi all, I'm Anil",
+  subTitle: emoji(
+    "A dedicated DevOps and Cloud Engineer ☁️ with hands-on experience in automating infrastructure, managing CI/CD pipelines, and deploying scalable solutions using AWS, Docker, Kubernetes, and Terraform."
+  ),
+  resumeLink: "https://drive.google.com/file/d/1I4Ao_Mxhd3Rzb6FO2iRtUfmZmtspGx-l/view", // Provide if available
+  displayGreeting: true
+};
+
+
+// Social Media Links
 
 const socialMediaLinks = {
-
   github: "https://github.com/anil2211",
-  linkedin: "https://www.linkedin.com/in/anil-choudhary-390a77164/",
+  linkedin: "https://www.linkedin.com/in/anil-choudhary-vcr22/",
   gmail: "anilc2812@gmail.com",
-  facebook: "",
-  // Instagram and Twitter are also supported in the links!
+  display: true // Set true to display this section, defaults to false
 };
 
-// Your Skills Section
+// Skills Section
 
 const skillsSection = {
-  title: "What I Love to do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do",
+  subTitle: "PASSIONATE DEVOPS ENGINEER WITH EXPERTISE IN CLOUD INFRASTRUCTURE AND AUTOMATION",
   skills: [
-    emoji("⚡ Integration of third party services such as Google Contact, Google sheet, Zapier, Twilio, Zoho CRM, Zoho Desk by using python."),
-    emoji("⚡ Develop interactive Front end / User Interfaces for your web applications.")
-   
+    emoji("⚡ Building and automating CI/CD pipelines using Jenkins, GitHub Actions."),
+    emoji("⚡ Managing scalable cloud infrastructure on AWS using Terraform and CloudFormation"),
+    emoji("⚡ Container orchestration with Docker and Kubernetes (self-hosted)"),
+    emoji("⚡ Designing scalable and secure cloud infrastructure using AWS, Terraform, and CloudFormation."),
+
   ],
-
-/* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
+    { skillName: "aws", fontAwesomeClassname: "fab fa-aws" },
+    { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
+    { skillName: "kubernetes", fontAwesomeClassname: "fas fa-network-wired" },
+    { skillName: "terraform", fontAwesomeClassname: "fas fa-tools" },
+    { skillName: "Ansible", fontAwesomeClassname: "fas fa-cogs" },
+    { skillName: "jenkins", fontAwesomeClassname: "fab fa-jenkins" },
+    { skillName: "linux", fontAwesomeClassname: "fab fa-linux" },
+    { skillName: "python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "bash", fontAwesomeClassname: "fas fa-terminal" },
+    { skillName: "git", fontAwesomeClassname: "fab fa-git-alt" }
+  ],
+  display: true
+};
+
+
+// Education Section
+
+const educationInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      schoolName: "Lovely Professional University",
+      logo: require("./assets/images/lpu.png"),
+      subHeader: "Master Computer Applications (MCA)",
+      duration: "Aug 2016 - May 2018",
+      desc: "CGPA-8.24/10",
     },
     {
-      skillName: "machine learning",
-      fontAwesomeClassname: "fas fa-robot"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // },
+      schoolName: "Devi Ahilya Vishvavidyalaya",
+      logo: require("./assets/images/davv.png"),
+      subHeader: "Bachelor of Science in Computer Science(B.sc(CS))",
+      duration: "Aug 2013 - June 2016",
+      desc: "Percentage-68%",
+    }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
-    {
-      Stack: "Python",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "MySql",  //Insert stack or technology you have experience in
-      progressPercentage: "75%"  //Insert relative proficiency in percentage
-    },
-
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-
-    {
-      Stack: "Machine Learning",  //Insert stack or technology you have experience in
-      progressPercentage: "50%"  //Insert relative proficiency in percentage
-    },
-  ]
+    { Stack: "Cloud Infrastructure (AWS)", progressPercentage: "75%" },
+    { Stack: "CI/CD & Automation", progressPercentage: "80%" },
+    { Stack: "Containers & Orchestration", progressPercentage: "75%" }
+  ],
+  displayCodersrank: false
 };
 
 
-
-// Your top 3 work experiences
+// Work experience section
 
 const workExperiences = {
-  viewExperiences: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Python Developer",  
+      role: "Python Intern",
       company: "Relinns Technologies",
-      companylogo: require("./assets/images/rellins.png"),
-      date: "January 2020 – Present",
-      desc: "As a Artificial Intelligence intern,build chatbots to communicate and engage with customers on website and other platforms.",
-      descBullets: [
-      ]
+      companylogo: require("./assets/images/rellins.jpg"),
+      date: "Jan 2020 – June 2020",
+      desc: "Contributed to AI-driven chatbot development and backend automation as part of the Python development team.",
+  descBullets: [
+    "Developed and deployed intelligent chatbots using Python and NLP libraries to enhance customer engagement across websites and messaging platforms.",
+    "Integrated chatbots with third-party APIs and platforms such as Slack, WhatsApp, and Facebook Messenger.",
+    "Built RESTful APIs and automated backend processes to support chatbot workflows and analytics.",
+    "Collaborated with DevOps team to containerize applications using Docker and deploy them on staging servers."
+  ]
     },
+      {
+      role: "Technical Support Associate",
+      company: "Conneqt Business Solutions Limited",
+      companylogo: require("./assets/images/conneqt.jpg"),
+      date: "Jul 2018 – Nov 2019",
+      desc: "Company specializing in providing business solutions",
+  descBullets: [
+    "Delivered technical and customer support in a high-volume, fast-paced environment, addressing inquiries via phone, email, and chat platforms",
+    "Diagnosed and resolved software and network-related issues, ensuring timely solutions and minimal customer downtime",
+    "Collaborated cross-functionally with Tier 2 and engineering teams to escalate and resolve complex technical problems",
+    "Responded to customer inquiries daily across phone, email, and chat, resolving issues efficiently while maintaining high customer satisfaction"
+  ]
+    },
+
     {
-      role: "Android Developer",  
+      role: "Android Developer",
       company: "Sebiz Infotech",
       companylogo: require("./assets/images/sebiz.jpg"),
-      date: "Jan 2018 – June 2018",
-      desc: "Designing and developing advanced applications for the Android platform.Work on bug fixing and improving application performance"
-    },
+      date: "Jan 2018 – Jun 2018",
+     desc: "Focused on designing, developing, and optimizing Android applications to ensure high performance and user satisfaction.",
+  descBullets: [
+    "Developed and maintained responsive and feature-rich Android apps using Java and XML layouts.",
+    "Collaborated with cross-functional teams to define, design, and ship new features in a timely manner.",
+    "Performed debugging and profiling to identify bottlenecks, optimize performance, and fix critical bugs.",
+    "Implemented RESTful API integration for real-time data exchange between mobile front-end and backend services.",
+    "Adhered to Material Design principles and ensured compatibility across various Android devices and OS versions."
+  ]
+    }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "anil2211", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
-
-// Some Big Projects You have worked with your company
-const bigProjects = {
-  // title: "Projects",
-  // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  
-};
-
-// Your Achievement Section Include Your Certification Talks and More
+//Section certificates
 
 const achievementSection = {
-
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications and Some Cool Stuff that I have done !",
-
-  achivementsCards: [
+  title: emoji("Certifications 🏆"),
+  subtitle: "Certifications in DevOps, Cloud.",
+  achievementsCards: [
     {
-      title: "Machine Learning",
-      subtitle: "Supervised and unsupervised learning · Linear and logistic regression · Kernel SVM · KMeans clustering · Naive Bayes · Decision tree",
-      image: require("./assets/images/sebiz.jpg"),
+      title: "DevOps and Cloud Computing",
+      subtitle: "Credential Physics Wallah",
+      image: require("./assets/images/devops.jpg"),
+      imageAlt: "DevOps Certification",
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/1OM6g19uRYZPrMoQlTlqTOon8Ix7AON9g/view?usp=sharing" },
-//        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-//        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1KlGcQxT8oPqxgbCTR2_sYD18_pFN9tOU/view?usp=sharing"
+        }
       ]
     },
-    
     {
-      title: "Sql for Data Analysis",
-      subtitle: "Extracting,transforming,analyzing data from databases.Use SQL to apply complex criteria and transformations to database data.",
-      image: require("./assets/images/sebiz.jpg"),
-      footerLink: [{ name: "Certification", url: "https://drive.google.com/file/d/18BvKdHHwpcvoIF8vbdKDZ_RbaW6H6lhm/view?usp=sharing" }]
+      title: "AWS from Udemy",
+      subtitle: "Credential from udemy",
+      image: require("./assets/images/aws.jpg"), // Replace with correct AWS image if available
+      imageAlt: "AWS Certification",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/18K_ajGCRvC6baXgdrEHcSXpN8A8490aO/view?usp=sharing"
+        }
+      ]
     },
-
     {
       title: "Django",
-      subtitle: "Completed Certifcation from Bluelime Learning Solutions for Python and Django Full Stack Web Development for Beginners.",
-      image: require("./assets/images/sebiz.jpg"),
+      subtitle: "Credential from udemy",
+      image: require("./assets/images/django_pyt.jpg"),
+      imageAlt: "CKA Badge",
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/1rJDYOxyjHpQcfR5Ajkf8xVm4IaDKCnpF/view?usp=sharing" }      ]
-    },
         {
-      title: "Mongo DB",
-      subtitle: "Feel flexbile to work with MongoDB, Perform Basic and Advanced queries in MongoDB,Understand how MongoDB stores data",
-      image: require("./assets/images/sebiz.jpg"),
-      footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/1SWZDjk12ZVVR_0sZ32CJyE5AKtnrgQPy/view?usp=sharing" },
-//        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-//        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1lpay3O1oDC2cHI58msS8qBG9Mf4EBTIT/view?usp=sharing"
+        }
       ]
     },
     {
-      title: "Data Science",
-      subtitle: "Important elements of data science,introduced to the principles, practices, and tools that make data science the powerful medium for critical insight in business and research.",
-      image: require("./assets/images/sebiz.jpg"),
-      footerLink: [{ name: "Certification", url: "https://drive.google.com/file/d/1jVXFsYyvBODamo9c3q7IcfDHihVLAq84/view?usp=sharing" }]
+      title: "Python",
+      subtitle: "Certificate in Backend Development using Python & Django",
+      image: require("./assets/images/python.jpg"), // Replace with a relevant image
+      imageAlt: "Python Django Certificate",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1o_baFLZ-f2DvEy6IpqInRRsCH0bsL5wE/view?usp=sharing" // Replace with actual certificate URL
+        }
+      ]
     },
-  ]
+    {
+      title: "MongoDB for Developers",
+      subtitle: "Certificate from Udemy",
+      image: require("./assets/images/mongodb.jpg"),
+      imageAlt: "MongoDB Certificate",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1RQ57feAr87VcusdIZMPh7VpcyKIAaMaA/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Machine Learning with Python",
+      subtitle: "Credential by Udemy",
+      image: require("./assets/images/machine_learning.jpg"), // Replace with relevant image
+      imageAlt: "Machine Learning Certificate",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1OM6g19uRYZPrMoQlTlqTOon8Ix7AON9g/view?usp=sharing" // Replace with actual certificate URL
+        }
+      ]
+    }
+  ],
+  display: true
 };
 
+
+// Resume Section
+const resumeSection = {
+  title: "Resume",
+  subtitle: "download my resume",
+  display: true // Set false to hide this section, defaults to true
+};
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "My Inbox is open for all.",
-  number: "+91-9877281065",
+  subtitle:
+    "My Inbox is open for all.",
+  number: "+91-0000000000",
   email_address: "anilc2812@gmail.com"
 };
 
-// Twitter Section
+
+const blogSection = {
+  display: false // Set false to hide this section, defaults to true
+};
+
+const bigProjects = {
+  display: false // Set false to hide this section, defaults to true
+};
+
+const talkSection = {
+  display: false // Set false to hide this section, defaults to true
+};
+
+// Podcast Section
+
+const podcastSection = {
+  display: false // Set false to hide this section, defaults to true
+};
 
 const twitterDetails = {
-
- userName : "twitter"//Replace "twitter" with your twitter username without @
-
+  userName: "twitter", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
-// export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
-export { achievementSection, bigProjects, contactInfo, greeting, openSource, skillsSection, socialMediaLinks, techStack, twitterDetails, workExperiences };
+const isHireable = false;
+
+export {
+  achievementSection, bigProjects, blogSection, contactInfo, educationInfo, greeting, illustration, isHireable, openSource, podcastSection, resumeSection, skillsSection, socialMediaLinks,
+  splashScreen, talkSection, techStack, twitterDetails, workExperiences
+};
+
+
 
