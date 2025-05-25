@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/anil-portfolio/static/css/main.ab149754.css",
+    "main.js": "/anil-portfolio/static/js/main.1389794c.js",
+    "static/css/487.bb36206c.chunk.css": "/anil-portfolio/static/css/487.bb36206c.chunk.css",
+    "static/js/487.ddfdd0f3.chunk.js": "/anil-portfolio/static/js/487.ddfdd0f3.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/anil-portfolio/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.b3c3e63c.chunk.js": "/anil-portfolio/static/js/990.b3c3e63c.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/anil-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/anil-portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/manOnTable.svg": "/anil-portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/anil-portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/anil-portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/devops.jpg": "/anil-portfolio/static/media/devops.d0eb95d237c15ce854f5.jpg",
+    "static/media/machine_learning.jpg": "/anil-portfolio/static/media/machine_learning.26e31a5a272cb515c720.jpg",
+    "static/media/mongodb.jpg": "/anil-portfolio/static/media/mongodb.5c2c17a9d8884cea5dc2.jpg",
+    "static/media/python.jpg": "/anil-portfolio/static/media/python.c220ffe5288ced77852a.jpg",
+    "static/media/conneqt.jpg": "/anil-portfolio/static/media/conneqt.044fb12cb5b378f3696a.jpg",
+    "static/media/skill.svg": "/anil-portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/anil-portfolio/index.html",
+    "static/media/talksCardBack.svg": "/anil-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.ab149754.css.map": "/anil-portfolio/static/css/main.ab149754.css.map",
+    "main.1389794c.js.map": "/anil-portfolio/static/js/main.1389794c.js.map",
+    "487.bb36206c.chunk.css.map": "/anil-portfolio/static/css/487.bb36206c.chunk.css.map",
+    "487.ddfdd0f3.chunk.js.map": "/anil-portfolio/static/js/487.ddfdd0f3.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/anil-portfolio/static/css/990.c6a7ee28.chunk.css.map",
+    "990.b3c3e63c.chunk.js.map": "/anil-portfolio/static/js/990.b3c3e63c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab149754.css",
+    "static/js/main.1389794c.js"
+  ]
+}
