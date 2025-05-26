@@ -1,6 +1,6 @@
 import { useContext } from "react";
+import { Fade } from "react-awesome-reveal"; // Updated import
 import emoji from "react-easy-emoji";
-import { Fade } from "react-reveal";
 import landingPerson from "../../assets/lottie/landingPerson";
 import Button from "../../components/button/Button";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
@@ -10,12 +10,12 @@ import { greeting, illustration } from "../../portfolio";
 import "./Greeting.scss";
 
 export default function Greeting() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   if (!greeting.displayGreeting) {
     return null;
   }
   return (
-    <Fade bottom duration={1000} distance="40px">
+    <Fade triggerOnce duration={1000} distance="40px"> {/* Updated Fade component */}
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
@@ -23,16 +23,11 @@ export default function Greeting() {
               <h1
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
-                {" "}
-                {greeting.title}{" "}
+                {greeting.title}
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
-                className={
-                  isDark
-                    ? "dark-mode greeting-text-p"
-                    : "greeting-text-p subTitle"
-                }
+                className={isDark ? "dark-mode greeting-text-p" : "greeting-text-p subTitle"}
               >
                 {greeting.subTitle}
               </p>
@@ -42,13 +37,14 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={greeting.resumeLink}
+                    href={require("./resume.pdf")}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="download-link-button"
                   >
-                    <Button text="View My Resume" />
+                    <Button text="View my resume" />
                   </a>
+
                 )}
               </div>
             </div>
@@ -60,7 +56,7 @@ export default function Greeting() {
               <img
                 alt="man sitting on table"
                 src={require("../../assets/images/manOnTable.svg")}
-              ></img>
+              />
             )}
           </div>
         </div>

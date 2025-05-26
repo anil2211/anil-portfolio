@@ -1,9 +1,8 @@
-import React from "react";
-import "./Progress.scss";
-import {illustration, techStack} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { Fade } from "react-awesome-reveal"; // <-- CHANGE import here
 import Build from "../../assets/lottie/build";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+import { illustration, techStack } from "../../portfolio";
+import "./Progress.scss";
 
 export default function StackProgress() {
   if (techStack.viewSkillBars) {

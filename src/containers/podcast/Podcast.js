@@ -1,8 +1,8 @@
-import React, {useContext} from "react";
-import "./Podcast.scss";
-import {podcastSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { useContext } from "react";
+import { Fade } from "react-awesome-reveal"; // <-- CHANGE import here
 import StyleContext from "../../contexts/StyleContext";
+import { podcastSection } from "../../portfolio";
+import "./Podcast.scss";
 
 export default function Podcast() {
   const {isDark} = useContext(StyleContext);

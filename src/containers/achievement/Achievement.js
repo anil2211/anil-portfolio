@@ -1,9 +1,9 @@
-import React, {useContext} from "react";
-import "./Achievement.scss";
+import { useContext } from "react";
+import { Fade } from "react-awesome-reveal"; // <-- CHANGE import here
 import AchievementCard from "../../components/achievementCard/AchievementCard";
-import {achievementSection} from "../../portfolio";
-import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import { achievementSection } from "../../portfolio";
+import "./Achievement.scss";
 export default function Achievement() {
   const {isDark} = useContext(StyleContext);
   if (!achievementSection.display) {

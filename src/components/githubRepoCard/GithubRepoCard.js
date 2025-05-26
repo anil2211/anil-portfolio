@@ -1,7 +1,6 @@
-import React from "react";
+import { Fade } from "react-awesome-reveal"; // <-- CHANGE import here
+import { formatFileSizeDisplay } from "../../utils";
 import "./GithubRepoCard.scss";
-import {Fade} from "react-reveal";
-import {formatFileSizeDisplay} from "../../utils";
 
 export default function GithubRepoCard({repo, isDark}) {
   function openUrlInNewTab(url, name) {
