@@ -27,7 +27,7 @@ const greeting = {
   subTitle: emoji(
     "A dedicated DevOps and Cloud Engineer ☁️ with hands-on experience in automating infrastructure, managing CI/CD pipelines, and deploying scalable solutions using AWS, Docker, Kubernetes, and Terraform."
   ),
-  resumeLink: "https://drive.google.com/file/d/1I4Ao_Mxhd3Rzb6FO2iRtUfmZmtspGx-l/view", // Provide if available
+  resumeLink: "", // Provide if available
   displayGreeting: true
 };
 
