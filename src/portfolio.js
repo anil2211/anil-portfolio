@@ -27,7 +27,7 @@ const greeting = {
   subTitle: emoji(
     "A dedicated DevOps and Cloud Engineer ☁️ with hands-on experience in automating infrastructure, managing CI/CD pipelines, and deploying scalable solutions using AWS, Docker, Kubernetes, and Terraform."
   ),
-  resumeLink: "", // Provide if available
+  resumeLink: "/d/1fEX3rPZDyVUcoWWnG8r-tNzpmBCD2ejh/view", // Provide if available
   displayGreeting: true
 };
 
@@ -36,7 +36,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/anil2211",
-  linkedin: "https://www.linkedin.com/in/anil-choudhary-vcr22/",
+  linkedin: "https://www.linkedin.com/in/anil-choudhary-devops/",
   gmail: "anilc2812@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
